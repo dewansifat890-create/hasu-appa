@@ -1,0 +1,8 @@
+{
+  "name": "Remix Hasu Appa",
+  "description": "An action-packed 2D runner and adventure puzzle game featuring customizable cartoon characters, smooth physics, shop, and persistent Game ID profile save system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

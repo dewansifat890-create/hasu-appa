@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display-hero {
+    font-family: 'Rubik', sans-serif;
+  }
+  .font-score-md {
+    font-family: 'Rubik', sans-serif;
+  }
+  .font-headline-lg {
+    font-family: 'Rubik', sans-serif;
+  }
+  .font-body-lg {
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  .font-label-sm {
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+}
+
+.start-button-shadow {
+  box-shadow: 0px 6px 0px 0px #c27000;
+}
+
+.start-button-shadow:active {
+  transform: translateY(6px);
+  box-shadow: 0px 0px 0px 0px #c27000;
+}
+
+.secondary-button-shadow {
+  box-shadow: 0px 4px 0px 0px #00a4ce;
+}
+
+.secondary-button-shadow:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 0px 0px #00a4ce;
+}
+
+.purple-button-shadow {
+  box-shadow: 0px 4px 0px 0px #6b21a8;
+}
+
+.purple-button-shadow:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 0px 0px #6b21a8;
+}
+
+/* ========================================================
+   ULTRA-SLIM FLOATING GLASS SCROLLBAR
+   - Extremely thin (3.5px)
+   - Translucent frosted glass capsule effect
+   - Margined at top & bottom (opore nise kata/shortened)
+   ======================================================== */
+
+/* Global Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
+}
+
+/* WebKit Scrollbar (Chrome, Safari, Edge, Android Chrome) */
+*::-webkit-scrollbar,
+::-webkit-scrollbar {
+  width: 3.5px;
+  height: 3.5px;
+}
+
+/* Scrollbar Track with top and bottom spacing/cut */
+*::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  border-radius: 9999px;
+}
+
+/* Floating Glass Thumb */
+*::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 9999px;
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Glass Thumb on Hover */
+*::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.5px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+/* Glass Thumb when Dragged / Active */
+*::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 190, 50, 0.85);
+  border: 0.5px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 12px rgba(255, 190, 50, 0.7);
+}
+
+/* Scrollbar Corner */
+*::-webkit-scrollbar-corner,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
